@@ -1,0 +1,24 @@
+{
+  "name": "stephenakinola/tooltip-block",
+  "description": "A Gutenberg block to add tooltips to text.",
+  "type": "wordpress-plugin",
+  "license": "GPL-2.0-or-later",
+  "authors": [
+    {
+      "name": "Stephen Akinola",
+      "email": "stephenakinola90@gmail.com"
+    }
+  ],
+  "require": {},
+  "require-dev": {
+    "phpunit/phpunit": "^9.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "SAGutenbergAddons\\": "src/"
+    }
+  },
+  "scripts": {
+    "test": "phpunit"
+  }
+}

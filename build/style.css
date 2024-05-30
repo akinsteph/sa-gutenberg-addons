@@ -1,0 +1,42 @@
+/*!***************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/@wordpress/scripts/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/@wordpress/scripts/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/@wordpress/scripts/node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/style.scss ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.has-tooltip {
+  position: relative;
+  text-decoration: underline;
+  cursor: pointer;
+  display: inline;
+}
+.has-tooltip::after {
+  content: attr(tooltiptext);
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #333;
+  color: #fff;
+  white-space: nowrap;
+  pointer-events: none;
+  min-width: 50px;
+  width: -moz-max-content;
+  width: max-content;
+  height: 50px;
+  font-size: 12px;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.2s, visibility 0.2s;
+  opacity: 0;
+}
+.has-tooltip:hover:after {
+  opacity: 1;
+  visibility: visible;
+}
+
+.entry-content .wp-block-custom-block-container {
+  padding: 30px 50px;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+}
+
+/*# sourceMappingURL=style.css.map*/
