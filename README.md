@@ -1,10 +1,10 @@
-# SA Gutenberg Addons Block
+# SA Gutenberg Addons
 
-**SA Gutenberg Addons Block** is a WordPress plugin that enhances the default Gutenberg editor by adding custom blocks and formats. This plugin provides additional functionalities to make your content creation more versatile and powerful.
+**SA Gutenberg Addons* is a WordPress plugin that enhances the default Gutenberg editor by adding custom blocks and formats. This plugin provides additional functionalities to make your content creation more versatile and powerful.
 
 ## Features
 
-- **Custom Blocks**: Enhance your content with custom blocks.
+- **Custom Container Block**: Enhance your content with custom blocks.
 - **Inline Tooltip Format**: Add tooltips to your text with ease.
 - **Responsive Design**: All blocks are responsive and adapt to various screen sizes.
 - **Easy to Use**: Simple and intuitive interface for adding custom blocks and formats.
