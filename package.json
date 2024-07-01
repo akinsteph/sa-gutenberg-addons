@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "A Gutenberg plugin that adds addons to the WordPress default Gutenberg editor.",
   "main": "build/index.js",
+  "directories": {
+    "test": "tests"
+  },
   "scripts": {
     "build": "wp-scripts build",
     "start": "wp-scripts start",
